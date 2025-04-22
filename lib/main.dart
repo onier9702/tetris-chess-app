@@ -107,10 +107,10 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
               .isNotEmpty) // Conditionally render the image
             Positioned(
               top: _fallingPiecePosition,
-              left: MediaQuery.of(context).size.width / 2 - 30,
+              left: MediaQuery.of(context).size.width / 2 - 60,
               child: Image.asset(
                 _getImagePath(_currentFallingPieceName),
-                height: 60,
+                height: 120,
               ),
             ),
           Align(
